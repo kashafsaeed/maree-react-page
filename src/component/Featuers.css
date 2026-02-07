@@ -4,6 +4,7 @@
   grid-template-columns: repeat(3, 1fr); /* 3 cards in one row */
   gap: 30px;
   padding: 24px;
+  background-color: #FAFAFA;
 }
 
 /* Card */
