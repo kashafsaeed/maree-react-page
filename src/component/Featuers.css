@@ -2,15 +2,15 @@
 .features-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 cards in one row */
-  gap: 24px;
-  padding: 20px;
+  gap: 30px;
+  padding: 24px;
 }
 
 /* Card */
 .features {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 40px;
 }
 
 /* Image box */
@@ -18,7 +18,6 @@
   width: 100%;
   height: 200px;
   overflow: hidden;
-  border-radius: 12px;
   cursor: pointer;
 }
 
@@ -39,9 +38,14 @@
 }
 
 .features-content h2 {
-  font-size: 16px;
+  font-size: 20px;
   margin: 0;
+  font-family: "Helvetica Neue" ;
+  font-weight: 200;
 }
+
+
+
 
 
 
@@ -59,6 +63,45 @@
   }
 }
 
+.features-last {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 300px; /* card width */
+}
 
+.features-image-last {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 12px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;  /* vertical center */
+  justify-content: flex-start; /* start from left */
+}
 
+.features-image-last img {
+  /* width: auto;            maintain aspect ratio */
+  height: 100%;           /* fit container height */
+  object-fit: contain;    /* show whole image */
+  transform: translateX(0);
+  transition: transform 6s linear;
+}
+
+.features-image-last:hover img {
+  transform: translateX(calc(-100% + 300px)); /* scroll horizontal */
+}
+
+.features-content-last {
+  text-align: center;
+}
+
+.features-content-last h2 {
+  margin: 0;
+  font-size: 20px;
+  font-family: "Helvetica Neue" ;
+  font-weight: 200;
+}
 

@@ -63,11 +63,11 @@ function Features() {
       </div>
 
 
-      <div className="features" >
-        <div className="features-image">
+      <div className="features-last" >
+        <div className="features-image-last">
           <img src="/images/links.jpg" alt="links" />
         </div>
-        <div className="features-content">
+        <div className="features-content-last">
           <h2> Interactive Links</h2>
         </div>
       </div>
@@ -82,11 +82,11 @@ function Features() {
         </div>
       </div>
 
-      <div className="features">
-        <div className="features-image">
+      <div className="features-last">
+        <div className="features-image-last">
           <img src="/images/carousel.jpg" alt="carosel" />
         </div>
-        <div className="features-content">
+        <div className="features-content-last">
           <h2> Portfolio Carousel</h2>
         </div>
       </div>
