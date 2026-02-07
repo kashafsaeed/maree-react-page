@@ -1,0 +1,62 @@
+
+/* Container */
+.features-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cards in one row */
+  gap: 24px;
+  padding: 20px;
+}
+
+/* Card */
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Image box */
+.features-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+/* Image hover scroll */
+.features-image img {
+  width: 100%;
+  transform: translateY(0);
+  transition: transform 6s linear;
+}
+
+.features-image:hover img {
+  transform: translateY(calc(-100% + 200px));
+}
+
+/* Text */
+.features-content {
+  text-align: center;
+}
+
+.features-content h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+
+
+
+/* ✅ Tablet */
+@media (max-width: 992px) {
+  .features-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ✅ Mobile */
+@media (max-width: 576px) {
+  .features-container {
+    grid-template-columns: 1fr;
+  }
+}
