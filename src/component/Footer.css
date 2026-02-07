@@ -40,12 +40,7 @@ footer .h1,span {
     border-color: #E1C0B0;
 
 }
-.footer-bottom {
-    display: flex;
-    background-color: darkslategrey;
-}
-.footer-bottom-content-img {
-    display: flex;
-    background-color: #FAFAFA;
-    width: 100%;
-}
+
+
+
+
