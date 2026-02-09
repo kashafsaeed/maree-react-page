@@ -2,6 +2,31 @@ import React from 'react'
 import './Featuers.css'
 function Features() {
   return (
+
+
+    <>
+
+    <div className='features-heading'>
+
+      <div className='features-heading-content'>
+        <img src="\images\logoimage.png" alt="logo"  />
+        <p className='subText'> Welcome to Marée, a brand new illustration & design portfolio just <br />
+             waiting for your work to start populating its templates!</p>
+      </div>
+       <div>
+         <button className='features-heading-btn'> PURCHASE </button>
+       </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
     <div className='features-container'>
 
       <div className="features">
@@ -97,6 +122,8 @@ function Features() {
 
     </div>
 
+
+    </>
   )
 }
 

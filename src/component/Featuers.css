@@ -56,6 +56,8 @@
 
 
 
+
+
 /* ✅ Tablet */
 @media (max-width: 992px) {
   .features-container {
@@ -112,3 +114,34 @@
   font-weight: 200;
 }
 
+
+
+
+
+.features-heading {
+  text-align: center;
+  padding: 40px 20px;
+}
+.features-heading-content .subText {
+  font-family: 'Muli' sans-serif;
+  font-size: 20px;
+  color: #555555;
+  line-height: 1.5;
+}
+.features-heading-btn {
+    color: #212020;
+    border: none;
+    padding: 20px 45px 20px 45px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 30px;
+    border: 2px solid #E1C0B0;
+    border-radius: 1px;
+    letter-spacing: 1px;
+}
+.features-heading-btn:hover {
+    background-color: #E1C0B0;
+    color: #fff;
+    border-color: #E1C0B0;
+
+}
