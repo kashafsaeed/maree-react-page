@@ -10,6 +10,9 @@ function Features() {
 
       <div className='features-heading-content'>
         <img src="\images\logoimage.png" alt="logo"  />
+        <img src="/images/landing-slider-img-5.png" alt="" className='iamge'  />
+
+
         <p className='subText'> Welcome to Marée, a brand new illustration & design portfolio just <br />
              waiting for your work to start populating its templates!</p>
       </div>

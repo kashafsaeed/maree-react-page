@@ -142,6 +142,6 @@
 .features-heading-btn:hover {
     background-color: #E1C0B0;
     color: #fff;
-    border-color: #E1C0B0;
+    border-color: hsl(20, 45%, 79%);
 
 }
