@@ -7,10 +7,22 @@ function Features() {
     <>
 
     <div className='features-heading'>
+     
 
       <div className='features-heading-content'>
-        <img src="\images\logoimage.png" alt="logo"  />
+        <img src="/images/logoimage.png" alt="logo"  />
         <img src="/images/landing-slider-img-5.png" alt="" className='iamge'  />
+        {/* <img src="/images/landing-slider-img12.png" alt="" />
+        <img src="/imager/landing-slider-img-1.png" alt="" />
+        <img src="/imager/landing-slider-img-2.png" alt="" />
+        <img src="/imager/landing-slider-img-3.png" alt="" />
+        <img src="/imager/landing-slider-img-4.png" alt="" />
+        <img src="/imager/landing-slider-img-6.png" alt="" />
+        <img src="/imager/landing-slider-img-7.png" alt="" />
+        <img src="/imager/landing-slider-img-8.png" alt="" />
+        <img src="/imager/landing-slider-img-9.png" alt="" />
+        <img src="/imager/landing-slider-img-10.png" alt="" />
+        <img src="/imager/landing-slider-img-11.png" alt="" /> */}
 
 
         <p className='subText'> Welcome to Marée, a brand new illustration & design portfolio just <br />
