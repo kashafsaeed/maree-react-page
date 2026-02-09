@@ -2,7 +2,7 @@
 .features-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 cards in one row */
-  gap: 30px;
+  gap: 50px;
   padding: 24px;
   background-color: #FAFAFA;
 }
@@ -12,11 +12,12 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
+  box-shadow: 10px 0 15px #FAFAFA , -10px 0 15px #FAFAFA;
 }
 
 /* Image box */
 .features-image {
-  width: 100%;
+  width: 95%;
   height: 200px;
   overflow: hidden;
   cursor: pointer;
@@ -46,7 +47,12 @@
 }
 
 
-
+@font-face {
+  font-family: 'Muli';
+  src: url('../fonts/Muli-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 
@@ -75,12 +81,12 @@
   width: 100%;
   height: 200px;
   overflow: hidden;
-  border-radius: 12px;
   cursor: pointer;
   position: relative;
   display: flex;
   align-items: center;  /* vertical center */
   justify-content: flex-start; /* start from left */
+  
 }
 
 .features-image-last img {

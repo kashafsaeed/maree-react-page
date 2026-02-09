@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-     <Hero />
+      <Hero />
      <Features />
      <Footer />
       
