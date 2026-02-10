@@ -1,5 +1,6 @@
 import React from 'react'
-import './Featuers.css'
+import './Features.css'
+
 function Features() {
   return (
 
@@ -62,7 +63,7 @@ function Features() {
           <h2>Floating Portfolio</h2>
         </div>
       </div>
-      <div>
+      {/* <div> */}
 
         <div className="features">
           <div className="features-image">
@@ -72,7 +73,7 @@ function Features() {
             <h2> Portfolio Pinterest</h2>
           </div>
         </div>
-      </div>
+      {/* </div> */}
 
 
       <div className="features">
@@ -138,7 +139,29 @@ function Features() {
     </div>
 
 
+
+
+
+
+
+
+
+
+   
+
+  
+
+
+
+
+
     </>
+
+
+
+
+
+    
   )
 }
 

@@ -43,6 +43,16 @@ footer .h1,span {
 
 
 
+
+
+
+
+ 
+
+  
+
+
+
 /* Animation for Footer images */
 
 
@@ -51,23 +61,52 @@ footer .h1,span {
       display: grid;
   grid-template-columns: auto 1fr 1fr auto; /* 4 columns */
   align-items: center;
-  background-color: teal;
 
 
 }
-.inner {
-    background-color: darkgoldenrod;
-}
+/* .inner {
+} */
 .side-leaf {
     height: 200px;
 }
-
+/* 
 .boy {
     background-color: indigo;
 }
 .side {
     background-color: darkgreen;
+} */
+
+/* Container for boy + leaf */
+.boy {
+  position: relative;
+  display: flex;
+  justify-content: center;  /* center horizontal */
+  align-items: flex-end;    /* boy image bottom aligned */
+  width: 100%;
+  height: 400px;            /* container height adjust */
 }
+
+/* Leaf inside boy container */
+.boy > div img.leaf {
+  position: absolute;
+  top: -2px;          /* leaf upar appear ho */
+  left: 50%;
+  height: 40px;       /* leaf height adjust */
+  width: auto;
+  z-index: 1;
+}
+
+/* Boy image */
+.boy > img.boy {
+  position: relative;
+  z-index: 2;         /* leaf ke upar */
+  height: 500px;      /* boy image height adjust */
+  width: auto;
+}
+
+
+
 
 
 
@@ -83,7 +122,6 @@ footer .h1,span {
 
 
 .textimage {
-    background-color: deeppink;
     position: relative; /* overlay ke liye zaroori */
     text-align: center;
 }
@@ -94,7 +132,7 @@ footer .h1,span {
     position: absolute;
     top: -60px;        /* text ke upar */
     left: 40%;
-    /* z-index: 1; */
+
 }
 
 /* Small image below or overlay */
@@ -115,4 +153,6 @@ footer .h1,span {
 
 
 
-
+.side-leaf2 {
+    height: 200px;
+}
