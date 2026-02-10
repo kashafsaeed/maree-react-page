@@ -43,5 +43,76 @@ footer .h1,span {
 
 
 
+/* Animation for Footer images */
+
+
+.footer-bottom {
+    width: 100%;
+      display: grid;
+  grid-template-columns: auto 1fr 1fr auto; /* 4 columns */
+  align-items: center;
+  background-color: teal;
+
+
+}
+.inner {
+    background-color: darkgoldenrod;
+}
+.side-leaf {
+    height: 200px;
+}
+
+.boy {
+    background-color: indigo;
+}
+.side {
+    background-color: darkgreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.textimage {
+    background-color: deeppink;
+    position: relative; /* overlay ke liye zaroori */
+    text-align: center;
+}
+
+/* Bird image above text */
+.bird {
+    height: 50px;
+    position: absolute;
+    top: -60px;        /* text ke upar */
+    left: 40%;
+    /* z-index: 1; */
+}
+
+/* Small image below or overlay */
+.small {
+    height: 80px;
+    position: absolute;
+    bottom: -20px;    
+    left: 70%;
+   
+}
+
+/* Main text image */
+.text {
+    height: 183px;
+    position: relative;
+    z-index: 2;       
+}
+
+
 
 
